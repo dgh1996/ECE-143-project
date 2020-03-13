@@ -9,10 +9,11 @@ def correlation(data):
 	data - Input dataframe
 	'''
 	#Clean the data
-	data['RainToday'].replace({'No':0,'Yes':1},inplace = True)
-	data['RainTomorrow'].replace({'No':0,'Yes':1},inplace = True)
+	datac = data.copy(deep=True)
+	datac['RainToday'].replace({'No':0,'Yes':1},inplace = True)
+	datac['RainTomorrow'].replace({'No':0,'Yes':1},inplace = True)
 	data1 = data[['RainToday', 'RainTomorrow']]
-	data1.dropna(inplace = True)
+	data1 = data1.dropna(inplace = False)
 	#Extract usable features
 	data2 = data[['MinTemp','MaxTemp', 'WindSpeed9am','WindSpeed3pm','Humidity9am', 'Humidity3pm', 'Cloud9am', 'Cloud3pm', 'Pressure9am', 'Pressure3pm','RainToday', 'RainTomorrow'] ]
 	#Find the correlations
