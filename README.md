@@ -25,14 +25,14 @@ In addition, each attempt may be different due to the randomized aspect of data 
 ## Scripts:
 The src folder contains the functions that we wrote.
 
-main.py contains essentially the code in the jupyter notebook.
+"main.py" contains essentially the code in the jupyter notebook.
 
-region.py contains functions to add the region column and plot data according to region.
+"region.py" contains functions to add the region column and plot data according to region.
 
-plot.py contains functions to plot the comparison plots by year and by season.
+"plot.py" contains functions to plot the comparison plots by year and by season.
 
-models.py contains functions to split the data, train the models and visualize their performance.
+"models.py" contains functions to split the data, train the models and visualize their performance.
 
-correlation.py contains functions to calculate the correlation and visualize it with a heatmap.
+"correlation.py" contains functions to calculate the correlation and visualize it with a heatmap.
 
-scatter.py contains functions to plot scatter plots of selected datapoints with and without the prediction turned on.
+"scatter.py" contains functions to plot scatter plots of selected datapoints with and without the prediction turned on.
