@@ -1,4 +1,4 @@
-# ECE-143-project
+# ECE-143-project_Group 3
 In this project, we provide functionalities to:
 - Plot useful visualizations of Australian rain
 - Train and select models to predict the future whether
