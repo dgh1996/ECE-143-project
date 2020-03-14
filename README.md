@@ -1,4 +1,4 @@
-# ECE-143-project_Group 3
+# ECE 143-project_Group 3
 In this project, we provide functionalities to:
 - Plot useful visualizations of Australian rain
 - Train and select models to predict the future whether
@@ -18,7 +18,7 @@ sklearn
 The data folder contain the dataset we used (courtesy to https://www.kaggle.com/jsphyg/weather-dataset-rattle-package).
 
 ## To use:
-runcode.ipynb shows how to run the code. Notice that the features used to train the model can be modified from here. 
+"runcode.ipynb" shows how to run the code. Notice that the features used to train the model can be modified from here. 
 
 In addition, each attempt may be different due to the randomized aspect of data splitting and training initialization.
 
